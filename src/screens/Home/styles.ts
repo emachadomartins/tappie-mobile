@@ -5,7 +5,14 @@ export default StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#000',
+  },
+  infoContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#52514e',
+    padding: 15,
+    borderRadius: 30,
+    opacity: 0.8,
   },
   image: {
     width: 250,
@@ -17,21 +24,33 @@ export default StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 30,
   },
+  logoContainer: {
+    flexDirection: 'row',
+    padding: 10,
+  },
+  logo: {
+    resizeMode: 'contain',
+    height: 60,
+    maxWidth: 150,
+  },
   type: {
     color: '#fff',
     fontSize: 20,
+    fontWeight: 'bold',
   },
   table: {},
   row: {
-    width: 350,
-    paddingHorizontal: 50,
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    maxWidth: 300,
+  },
+  attributeKey: {
+    fontWeight: 'bold',
+    color: '#fff',
+    fontSize: 15,
   },
   attributes: {
     color: '#fff',
     fontSize: 15,
-    textAlign: 'justify',
   },
   button: {
     margin: 50,
@@ -69,5 +88,14 @@ export default StyleSheet.create({
   },
   finalPrice: {
     fontSize: 30,
+  },
+  moreInfoButton: {
+    margin: 10,
+    backgroundColor: '#00f',
+    padding: 5,
+    borderRadius: 10,
+  },
+  moreInfoText: {
+    color: '#fff',
   },
 })

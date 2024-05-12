@@ -33,4 +33,5 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
-src/assets/*
+src/assets/
+example.json
