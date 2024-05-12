@@ -7,12 +7,15 @@ export default StyleSheet.create({
     justifyContent: 'center',
   },
   infoContainer: {
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#52514e',
     padding: 15,
     borderRadius: 30,
-    opacity: 0.8,
+    opacity: 0.9,
+    marginHorizontal: 20,
+    marginVertical: 50,
   },
   image: {
     width: 250,
@@ -49,8 +52,11 @@ export default StyleSheet.create({
     fontSize: 15,
   },
   attributes: {
+    paddingTop: 5,
     color: '#fff',
     fontSize: 15,
+    maxWidth: 400,
+    textAlign: 'justify',
   },
   button: {
     margin: 50,
@@ -91,11 +97,31 @@ export default StyleSheet.create({
   },
   moreInfoButton: {
     margin: 10,
-    backgroundColor: '#00f',
-    padding: 5,
-    borderRadius: 10,
-  },
-  moreInfoText: {
     color: '#fff',
+  },
+  info: {
+    flex: 1,
+    height: 5000,
+    maxHeight: 500,
+  },
+  priceContainer: {
+    flexDirection: 'row',
+    borderColor: '#fff',
+    backgroundColor: '#000',
+    opacity: 0.9,
+    borderWidth: 2,
+    padding: 5,
+    margin: 10,
+    borderRadius: 10,
+    alignItems: 'flex-end',
+  },
+  price: {
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize: 30,
+  },
+  volume: {
+    color: '#fff',
+    fontSize: 15,
   },
 })
